@@ -1,0 +1,81 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /datav -> static/datav/dist
+[GIN-debug] GET    /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /lowCode -> static/lowCode/dist
+[GIN-debug] GET    /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /mark -> static/mark/dist
+ 服务启动中，监听 :8081
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2025/06/20 - 15:36:48 | 200 |    2.406667ms |       127.0.0.1 | GET      "/lowCode/login"
+[GIN] 2025/06/20 - 15:36:48 | 200 |     611.535µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:36:48 | 200 |    1.407299ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:36:51 | 200 |     109.249µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN-debug] redirecting request 301: /datav/ --> /datav/
+[GIN] 2025/06/20 - 15:36:52 | 200 |     144.827µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:36:52 | 404 |      34.371µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:36:52 | 404 |      34.365µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:36:52 | 404 |      44.055µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:42:53 | 200 |     123.685µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:42:53 | 404 |      27.999µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:42:53 | 404 |      20.722µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:42:53 | 404 |      29.177µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:43:50 | 200 |     105.391µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:43:50 | 404 |      23.143µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:43:50 | 404 |      23.143µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:43:50 | 404 |       28.52µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:43:51 | 200 |     121.979µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:43:51 | 404 |      30.389µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:43:51 | 404 |      61.387µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:43:51 | 404 |      14.771µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:43:51 | 200 |      97.481µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:43:51 | 404 |      35.289µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:43:51 | 404 |      32.397µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:43:51 | 404 |      18.972µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:43:54 | 200 |      127.96µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:43:54 | 404 |      30.476µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:43:54 | 404 |      12.901µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:43:54 | 404 |      13.954µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:44:27 | 404 |      25.787µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:44:27 | 404 |      34.196µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:44:27 | 404 |      18.953µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:44:30 | 404 |      23.514µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:44:34 | 200 |      99.922µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:44:34 | 404 |      22.849µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:44:34 | 404 |      22.838µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:44:34 | 404 |      18.158µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:44:53 | 200 |     118.976µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:44:53 | 404 |      36.305µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:44:53 | 404 |        21.1µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:44:53 | 404 |      21.118µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:45:44 | 200 |     104.567µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:45:44 | 404 |      37.025µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:45:44 | 404 |      57.433µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:45:44 | 404 |      21.908µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:45:45 | 404 |      40.597µs |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2025/06/20 - 15:49:03 | 304 |      120.08µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:49:03 | 404 |      22.834µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:49:03 | 404 |      44.239µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:49:03 | 404 |      26.181µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:49:05 | 404 |      23.331µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:49:07 | 200 |     111.093µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/20 - 15:49:07 | 404 |      24.946µs |       127.0.0.1 | GET      "/js/chunk-vendors.ad3754bf.js"
+[GIN] 2025/06/20 - 15:49:07 | 404 |       15.47µs |       127.0.0.1 | GET      "/js/app.72d5fd15.js"
+[GIN] 2025/06/20 - 15:49:07 | 404 |      19.222µs |       127.0.0.1 | GET      "/css/app.a24603e7.css"
+[GIN] 2025/06/20 - 15:50:29 | 200 |     137.652µs |       127.0.0.1 | GET      "/mark/"
+[GIN] 2025/06/20 - 15:50:29 | 200 |     426.818µs |       127.0.0.1 | GET      "/mark/assets/index-CFH6C81E.js"
+[GIN] 2025/06/20 - 15:50:29 | 200 |      91.735µs |       127.0.0.1 | GET      "/mark/vite.svg"
+[GIN] 2025/06/20 - 15:50:51 | 200 |     106.818µs |       127.0.0.1 | GET      "/lowCode/"
+[GIN] 2025/06/20 - 15:50:51 | 200 |     1.45297ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:50:51 | 200 |     220.129µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:50:53 | 200 |      97.595µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"

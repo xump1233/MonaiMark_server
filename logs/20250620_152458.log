@@ -1,0 +1,53 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /lowCode -> static/lowCode/dist
+[GIN-debug] GET    /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /mark -> static/mark/dist
+ 服务启动中，监听 :8081
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2025/06/20 - 15:25:11 | 200 |    2.463491ms |       127.0.0.1 | GET      "/lowCode/"
+[GIN] 2025/06/20 - 15:25:11 | 200 |    1.615082ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:25:11 | 200 |     337.823µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:25:13 | 200 |     124.822µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:26:13 | 200 |     105.864µs |       127.0.0.1 | GET      "/mark/"
+[GIN] 2025/06/20 - 15:26:13 | 200 |     525.405µs |       127.0.0.1 | GET      "/mark/assets/index-CFH6C81E.js"
+[GIN] 2025/06/20 - 15:26:13 | 200 |     102.801µs |       127.0.0.1 | GET      "/mark/vite.svg"
+[GIN] 2025/06/20 - 15:26:19 | 200 |     121.211µs |       127.0.0.1 | GET      "/lowCode/"
+[GIN] 2025/06/20 - 15:26:19 | 200 |    1.383244ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:26:19 | 200 |     247.429µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:26:21 | 200 |      96.745µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:26:28 | 200 |     159.172µs |       127.0.0.1 | GET      "/lowCode/login"
+[GIN] 2025/06/20 - 15:26:28 | 200 |     346.338µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:26:28 | 200 |     1.98628ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:26:29 | 200 |      91.792µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:26:47 | 200 |     120.416µs |       127.0.0.1 | GET      "/lowCode/index"
+[GIN] 2025/06/20 - 15:26:47 | 200 |    1.532263ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:26:47 | 200 |     251.495µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:26:49 | 200 |      84.868µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:29:07 | 200 |      148.78µs |       127.0.0.1 | GET      "/lowCode/index"
+[GIN] 2025/06/20 - 15:29:08 | 200 |      237.12µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:29:08 | 200 |    1.589105ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:29:09 | 200 |      143.45µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:30:26 | 200 |      90.675µs |       127.0.0.1 | GET      "/lowCode/index"
+[GIN] 2025/06/20 - 15:30:26 | 200 |     1.56103ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:30:26 | 200 |     333.242µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:30:28 | 200 |      115.63µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:30:40 | 200 |      87.069µs |       127.0.0.1 | GET      "/lowCode/login"
+[GIN] 2025/06/20 - 15:30:40 | 200 |     404.353µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:30:40 | 200 |    1.528566ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:30:41 | 200 |     115.644µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:30:51 | 200 |      88.341µs |       127.0.0.1 | GET      "/lowCode/login"
+[GIN] 2025/06/20 - 15:30:51 | 200 |    1.333996ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
+[GIN] 2025/06/20 - 15:30:51 | 200 |     279.514µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
+[GIN] 2025/06/20 - 15:30:53 | 200 |      96.315µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 15:31:01 | 304 |      86.442µs |       127.0.0.1 | GET      "/lowCode/login"
+[GIN] 2025/06/20 - 15:36:18 | 404 |      34.314µs |       127.0.0.1 | GET      "/.env"
