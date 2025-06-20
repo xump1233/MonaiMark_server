@@ -1,0 +1,21 @@
+nohup: ignoring input
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*filepath                --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /*filepath                --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2025/06/18 - 17:59:55 | 200 |    7.713943ms |       127.0.0.1 | GET      "/"
+[GIN] 2025/06/18 - 17:59:55 | 200 |    3.798934ms |       127.0.0.1 | GET      "/assets/index-CFH6C81E.js"
+[GIN] 2025/06/18 - 17:59:56 | 200 |     825.277µs |       127.0.0.1 | GET      "/vite.svg"
+[GIN] 2025/06/18 - 18:21:51 | 200 |      95.502µs |       127.0.0.1 | GET      "/"
+[GIN] 2025/06/18 - 18:21:51 | 200 |     412.725µs |       127.0.0.1 | GET      "/assets/index-CFH6C81E.js"
+[GIN] 2025/06/18 - 18:21:51 | 200 |     121.167µs |       127.0.0.1 | GET      "/vite.svg"
+[GIN] 2025/06/19 - 09:11:34 | 200 |     170.305µs |       127.0.0.1 | GET      "/"
+[GIN] 2025/06/19 - 09:11:34 | 200 |     384.698µs |       127.0.0.1 | GET      "/assets/index-CFH6C81E.js"
+[GIN] 2025/06/19 - 09:11:34 | 200 |      114.22µs |       127.0.0.1 | GET      "/vite.svg"
