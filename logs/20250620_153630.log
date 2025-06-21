@@ -79,3 +79,5 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 [GIN] 2025/06/20 - 15:50:51 | 200 |     1.45297ms |       127.0.0.1 | GET      "/lowCode/assets/index-BjFTnUFd.js"
 [GIN] 2025/06/20 - 15:50:51 | 200 |     220.129µs |       127.0.0.1 | GET      "/lowCode/assets/index-CY5O_8Px.css"
 [GIN] 2025/06/20 - 15:50:53 | 200 |      97.595µs |       127.0.0.1 | GET      "/lowCode/favicon.ico"
+[GIN] 2025/06/20 - 16:39:52 | 404 |      22.911µs |       127.0.0.1 | GET      "/"
+[GIN] 2025/06/20 - 16:45:03 | 404 |      31.195µs |       127.0.0.1 | GET      "/.env.backup"
