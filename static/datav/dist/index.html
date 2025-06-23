@@ -1,1 +1,16 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>vue_test</title><script defer="defer" src="/js/chunk-vendors.ad3754bf.js"></script><script defer="defer" src="/js/app.72d5fd15.js"></script><link href="/css/app.a24603e7.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but vue_test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>智教可视化</title><style>body,html{
+        margin:0;
+      }</style><script defer="defer" src="/datav/js/chunk-vendors.1531794b.js"></script><script defer="defer" src="/datav/js/app.c1e40428.js"></script><link href="/datav/css/app.bf632deb.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but datav_test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body><script>let isChange = true;
+    let rate;
+    function getRate(w,h){
+      isChange = false
+      return w/h;
+    }
+    window.onload = ()=>{
+      rate = getRate(document.body.offsetWidth,document.body.offsetHeight)
+    }
+    window.addEventListener('resize', function(event){
+
+      console.log(document.body.offsetWidth)
+      document.body.style.height = document.body.offsetWidth/rate
+    });</script></html>

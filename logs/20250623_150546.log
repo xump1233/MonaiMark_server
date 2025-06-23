@@ -1,0 +1,39 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /datav -> static/datav/dist
+[GIN-debug] GET    /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /lowCode -> static/lowCode/dist
+[GIN-debug] GET    /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /mark -> static/mark/dist
+ 服务启动中，监听 :8081
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2025/06/23 - 15:05:50 | 200 |    2.433247ms |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:05:50 | 200 |     545.349µs |       127.0.0.1 | GET      "/datav/js/app.c85d706f.js"
+[GIN] 2025/06/23 - 15:05:50 | 200 |    1.856192ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:05:50 | 200 |     191.792µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:05:53 | 200 |     128.197µs |       127.0.0.1 | GET      "/datav/datav/sql_server/all"
+[GIN] 2025/06/23 - 15:05:53 | 200 |      73.438µs |       127.0.0.1 | GET      "/datav/datav/sql_server/chapter1"
+[GIN] 2025/06/23 - 15:05:53 | 200 |      95.905µs |       127.0.0.1 | GET      "/datav/datav/sql_server/all"
+[GIN] 2025/06/23 - 15:05:53 | 404 |      25.689µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:05:53 | 200 |    7.070196ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:05:53 | 200 |     561.428µs |       127.0.0.1 | GET      "/datav/js/app.c85d706f.js.map"
+[GIN] 2025/06/23 - 15:06:06 | 200 |     172.025µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:06:06 | 200 |         311µs |       127.0.0.1 | GET      "/datav/js/app.c85d706f.js"
+[GIN] 2025/06/23 - 15:06:06 | 200 |    2.092749ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:06:06 | 200 |     176.874µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:06:11 | 200 |      83.596µs |       127.0.0.1 | GET      "/datav/datav/sql_server/all"
+[GIN] 2025/06/23 - 15:06:11 | 200 |      69.263µs |       127.0.0.1 | GET      "/datav/datav/sql_server/chapter1"
+[GIN] 2025/06/23 - 15:06:11 | 200 |      78.799µs |       127.0.0.1 | GET      "/datav/datav/sql_server/all"
+[GIN] 2025/06/23 - 15:06:11 | 200 |    8.449027ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:06:11 | 200 |     658.298µs |       127.0.0.1 | GET      "/datav/js/app.c85d706f.js.map"
+[GIN] 2025/06/23 - 15:06:11 | 404 |      25.218µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"

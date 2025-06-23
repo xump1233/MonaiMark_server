@@ -1,0 +1,84 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /datav -> static/datav/dist
+[GIN-debug] GET    /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /lowCode -> static/lowCode/dist
+[GIN-debug] GET    /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /mark -> static/mark/dist
+ 服务启动中，监听 :8081
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2025/06/23 - 15:13:32 | 200 |    3.382532ms |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:13:32 | 200 |     273.638µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js"
+[GIN] 2025/06/23 - 15:13:32 | 200 |    1.662374ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:13:32 | 200 |     169.188µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:13:34 | 200 |      90.989µs |       127.0.0.1 | GET      "/datavApi/datav/sql_server/all"
+[GIN] 2025/06/23 - 15:13:34 | 200 |     134.112µs |       127.0.0.1 | GET      "/datavApi/datav/sql_server/chapter1"
+[GIN] 2025/06/23 - 15:13:34 | 200 |      79.873µs |       127.0.0.1 | GET      "/datavApi/datav/sql_server/all"
+[GIN] 2025/06/23 - 15:13:34 | 404 |      33.975µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:13:34 | 200 |     691.496µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:13:34 | 200 |    8.202247ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:13:38 | 404 |      21.893µs |       127.0.0.1 | GET      "/"
+[GIN] 2025/06/23 - 15:22:47 | 404 |      21.739µs |       127.0.0.1 | GET      "/"
+[GIN] 2025/06/23 - 15:24:01 | 200 |      125.91µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:24:01 | 200 |    1.568021ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:24:01 | 200 |     231.731µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js"
+[GIN] 2025/06/23 - 15:24:01 | 200 |     150.274µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:24:07 | 404 |       23.07µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:24:07 | 200 |    7.635898ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:24:07 | 200 |     544.229µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:25:13 | 200 |     141.488µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:25:13 | 200 |    1.443571ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:25:13 | 200 |     235.917µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js"
+[GIN] 2025/06/23 - 15:25:13 | 200 |     154.548µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:25:36 | 404 |      24.743µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:25:36 | 200 |    7.856119ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:25:36 | 200 |      445.01µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:26:51 | 200 |    1.846775ms |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:26:52 | 200 |    1.490876ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:26:52 | 200 |    4.311544ms |       127.0.0.1 | GET      "/datav/js/app.8892758d.js"
+[GIN] 2025/06/23 - 15:26:52 | 200 |     163.335µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:27:10 | 404 |       55.93µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:27:10 | 200 |    7.583593ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:27:11 | 404 |      23.974µs |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2025/06/23 - 15:27:11 | 200 |     539.489µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:27:27 | 404 |      24.639µs |       127.0.0.1 | PROPFIND  "/"
+[GIN] 2025/06/23 - 15:28:47 | 200 |     111.615µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:28:47 | 200 |    1.446403ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:28:47 | 200 |     317.348µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js"
+[GIN] 2025/06/23 - 15:28:48 | 200 |     170.924µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:28:50 | 404 |      42.366µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:28:50 | 200 |    8.470568ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:28:50 | 200 |     515.501µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:28:50 | 404 |      36.251µs |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2025/06/23 - 15:29:48 | 404 |      25.803µs |       127.0.0.1 | POST     "/php-cgi/php-cgi.exe?%ADd+cgi.force_redirect%3D0+%ADd+disable_functions%3D%22%22+%ADd+allow_url_include%3D1+%ADd+auto_prepend_file%3Dphp://input"
+[GIN] 2025/06/23 - 15:31:30 | 200 |     107.258µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:31:30 | 200 |      320.34µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js"
+[GIN] 2025/06/23 - 15:31:30 | 200 |    1.562556ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:31:31 | 200 |     183.479µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:31:33 | 404 |       26.01µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:31:33 | 200 |   18.245307ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:31:33 | 200 |     512.051µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:31:33 | 404 |      39.161µs |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2025/06/23 - 15:31:33 | 200 |     118.461µs |       127.0.0.1 | GET      "/datav/assets/male"
+[GIN] 2025/06/23 - 15:31:33 | 200 |      58.234µs |       127.0.0.1 | GET      "/datav/assets/female"
+[GIN] 2025/06/23 - 15:32:02 | 200 |     493.124µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:32:02 | 200 |    8.766585ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:32:13 | 200 |     106.869µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:32:13 | 200 |     342.862µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js"
+[GIN] 2025/06/23 - 15:32:13 | 200 |    1.574197ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:32:13 | 200 |     271.125µs |       127.0.0.1 | GET      "/datav/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:32:19 | 200 |   10.521848ms |       127.0.0.1 | GET      "/datav/js/chunk-vendors.1531794b.js.map"
+[GIN] 2025/06/23 - 15:32:19 | 404 |      36.027µs |       127.0.0.1 | GET      "/img/logo.274d2173.gif"
+[GIN] 2025/06/23 - 15:32:19 | 200 |     556.733µs |       127.0.0.1 | GET      "/datav/js/app.8892758d.js.map"
+[GIN] 2025/06/23 - 15:32:19 | 200 |     111.502µs |       127.0.0.1 | GET      "/datav/assets/female"
+[GIN] 2025/06/23 - 15:32:19 | 200 |     112.388µs |       127.0.0.1 | GET      "/datav/assets/male"

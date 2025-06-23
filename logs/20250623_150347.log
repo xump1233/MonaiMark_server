@@ -1,0 +1,28 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /datav/*filepath          --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /datav -> static/datav/dist
+[GIN-debug] GET    /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /lowCode/*filepath        --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /lowCode -> static/lowCode/dist
+[GIN-debug] GET    /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /mark/*filepath           --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+✅ 已注册路由: /mark -> static/mark/dist
+ 服务启动中，监听 :8081
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+[GIN] 2025/06/23 - 15:04:05 | 200 |     6.99499ms |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:04:05 | 404 |      44.672µs |       127.0.0.1 | GET      "/js/chunk-vendors.1531794b.js"
+[GIN] 2025/06/23 - 15:04:05 | 404 |      45.643µs |       127.0.0.1 | GET      "/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:04:05 | 404 |      25.812µs |       127.0.0.1 | GET      "/js/app.c85d706f.js"
+[GIN] 2025/06/23 - 15:04:09 | 404 |      22.558µs |       127.0.0.1 | GET      "/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:04:14 | 200 |     121.294µs |       127.0.0.1 | GET      "/datav/"
+[GIN] 2025/06/23 - 15:04:14 | 404 |      38.246µs |       127.0.0.1 | GET      "/js/app.c85d706f.js"
+[GIN] 2025/06/23 - 15:04:14 | 404 |      21.655µs |       127.0.0.1 | GET      "/css/app.bf632deb.css"
+[GIN] 2025/06/23 - 15:04:14 | 404 |      19.108µs |       127.0.0.1 | GET      "/js/chunk-vendors.1531794b.js"
